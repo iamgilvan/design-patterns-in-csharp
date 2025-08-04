@@ -1,0 +1,63 @@
+## Compiled files
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+*.exe
+*.dll
+*.app
+*.log
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## dotnet CLI
+project.assets.json
+project.lock.json
+*.deps.json
+*.runtimeconfig.json
+
+## Rider
+.idea/
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testlog
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+
+## Logs
+*.log
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user

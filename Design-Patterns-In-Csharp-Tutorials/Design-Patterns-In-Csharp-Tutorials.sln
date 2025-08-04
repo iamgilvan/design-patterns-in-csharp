@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design-Patterns-In-Csharp-Tutorials", "Design-Patterns-In-Csharp-Tutorials.csproj", "{C9B9497A-54C5-8522-5307-AF3423980370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B9497A-54C5-8522-5307-AF3423980370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B9497A-54C5-8522-5307-AF3423980370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B9497A-54C5-8522-5307-AF3423980370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B9497A-54C5-8522-5307-AF3423980370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF8E8EB-7764-42FE-AA2B-6E166C42AF33}
+	EndGlobalSection
+EndGlobal
