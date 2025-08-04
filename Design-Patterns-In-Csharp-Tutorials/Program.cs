@@ -1,6 +1,13 @@
-﻿// Abstraction
+﻿// Inheritance
 
-using Design_Patterns_In_Csharp_Tutorials.OopPrinciples.Abstraction;
+using Design_Patterns_In_Csharp_Tutorials.OopPrinciples.Inheritance;
 
-EmailService emailService = new EmailService();
-emailService.SendEmail();
+var car = new Car();
+
+//shared
+car.Brand = "Ford";
+car.Start();
+car.Stop();
+
+//unique
+car.NumberOfDoors = 4;
