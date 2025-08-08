@@ -1,13 +1,40 @@
-﻿// Inheritance
+﻿// Polymorphism
 
-using Design_Patterns_In_Csharp_Tutorials.OopPrinciples.Inheritance;
+// Poly = many
 
-var car = new Car();
+// Morph = forms
 
-//shared
-car.Brand = "Ford";
-car.Start();
-car.Stop();
+// Polymorphism  is the ability of an object to take many forms
 
-//unique
-car.NumberOfDoors = 4;
+using Design_Patterns_In_Csharp_Tutorials.Polymorphism;
+
+List<object> vehicles = new List<object>();
+vehicles.Add(new Car
+{
+    Brand = "Toyota",
+    Model = "Camry",
+    Year = 2020,
+    NumberOfDoors = 4
+});
+vehicles.Add(new Motorcycle
+{
+    Brand = "Harley Davidson",
+    Model = "Sportster",
+    Year = 2021,
+});
+
+// Vehicle inspction
+foreach (var vehicle in vehicles)
+{
+    // vehicle.Start();
+    if (vehicle is Car)
+    {
+        var car = (Car)vehicle; ;
+        car.Start();
+    }
+    else if (vehicle is Motorcycle)
+    {
+        var motor = (Car)vehicle;
+        motor.Start();
+    }
+}
