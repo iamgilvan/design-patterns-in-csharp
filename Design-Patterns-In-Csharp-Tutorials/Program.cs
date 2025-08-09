@@ -1,7 +1,9 @@
-﻿// Coupling
+﻿// Composition
 
-// The degree of dependency between different classes
-using Design_Patterns_In_Csharp_Tutorials.Coupling;
+// Composition involves creating objects by combining simpler objects or components.
+// In composition, objects are assembled together to form larger structures, with each component object maintaining its own state and behaviour.
+// Composition it ofen described in terms of a "has-a" relationship.
+using Design_Patterns_In_Csharp_Tutorials.Composition;
 
-var order = new Order(new SmsSender());
-order.PlaceOrder();
+var car = new Car();
+car.StartCar();
