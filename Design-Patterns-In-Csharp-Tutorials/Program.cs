@@ -1,9 +1,14 @@
-﻿// Composition
+﻿// Composition vs Inheritance
 
-// Composition involves creating objects by combining simpler objects or components.
-// In composition, objects are assembled together to form larger structures, with each component object maintaining its own state and behaviour.
-// Composition it ofen described in terms of a "has-a" relationship.
-using Design_Patterns_In_Csharp_Tutorials.Composition;
+// When to Use Composition:
 
-var car = new Car();
-car.StartCar();
+// When you need more flexibility in contructing objects by assembling smaller, reusable components.
+// when there is no clear 'is-a' relationship between classes , and a 'has-a' relationship is more appropriate.
+// When you want to avoid the limitations of inheritance, such as tight coupling and the fragilebase class problem - wich we will look into shortly.
+
+
+// When to Use Inheritance:
+
+// When there is a clear 'is-a' relationship between classes, and subclass objects can be treated as intances of their superclass.
+// When you want to promote code reuse by inheriting properties and behaviors from existing classes
+// when you want to leverage polymorphism to allow objects of different subclasses to be treated uniformly through their common superclass interface
