@@ -1,4 +1,4 @@
-﻿// Single Responsability Principle (SRP)
+﻿// Open/Closed Principle (SRP)
 
-// "A class should only one reason to change, meaning that it should have only one responsability or purpose."
+// "Software entities (classes, modules, functions, etc.) should be open for extension but closed fro modification"
 
