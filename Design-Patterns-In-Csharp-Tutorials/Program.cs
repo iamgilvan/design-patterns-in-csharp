@@ -1,4 +1,4 @@
-﻿// Open/Closed Principle (SRP)
+﻿// Liskov Substitution Principle (LSP)
 
-// "Software entities (classes, modules, functions, etc.) should be open for extension but closed fro modification"
+// "Objects of a superclass should be replaceable with objects of its subclass without affectiong the correctness of the program."
 
