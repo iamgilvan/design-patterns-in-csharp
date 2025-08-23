@@ -1,9 +1,7 @@
-﻿// Interface Segregation  Principle (ISP)
+﻿// Dependency Inversion  Principle (DIP)
 
-// "Clients should not be forced to depend on interfaces they do not use."
+// "high-level modules should not depend on low-level modules. Both should depend on abstraction."
 
-using Design_Patterns_In_Csharp_Tutorials.SOLID.I.BadExample;
+using Design_Patterns_In_Csharp_Tutorials.SOLID.D.BetterExample;
 
-var circle = new Circle();
-circle.Radius = 10;
-System.Console.WriteLine(circle.Area());
+var car = new Car(new Engine());
