@@ -1,4 +1,9 @@
-﻿// Liskov Substitution Principle (LSP)
+﻿// Interface Segregation  Principle (ISP)
 
-// "Objects of a superclass should be replaceable with objects of its subclass without affectiong the correctness of the program."
+// "Clients should not be forced to depend on interfaces they do not use."
 
+using Design_Patterns_In_Csharp_Tutorials.SOLID.I.BadExample;
+
+var circle = new Circle();
+circle.Radius = 10;
+System.Console.WriteLine(circle.Area());
